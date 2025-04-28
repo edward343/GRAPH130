@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: goldenrod;
+}
+
+
+.stew-content {
+    background-color: #cccccc;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: darkblue;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    clear: both;
+    padding-left: 5px;
+}
+
