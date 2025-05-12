@@ -3,6 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Optimizing Images</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="../styles/nav.css" rel="stylesheet" type="text/css">
+    <style>
+        .loki {
+            background-color: gray;
+            width: 750px;
+            padding: 7px;
+            margin: 5px;
+            float: left;
+        }
+
+        .leroy {
+            display: inline-block;
+            color: white;
+            vertical-align: top;
+            margin-left: 5px;
+            font-family: "Space Mono", monospace;
+        }
+        .clear {
+            clear: both;
+        }
+        .leo {
+            background-color: lightcyan;
+            padding: 0px 5px 5px 0px;
+        }
+        .leo img{
+            vertical-align: top;
+            margin: 10px 5px 3px 6px;
+        }
+        h1 {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
 </head>
 <body>
     <nav class="kiwi">
@@ -16,5 +49,42 @@
             <li><a href="optimizing-images.html">Optimized Images</a></li>
         </ul>
     </nav> 
+<h1>Optimizing Images</h1>
+<article class="loki">
+    <img src="../images/80.jpg" alt="80 percent jpg sample" height="500px">
+    <section class="leroy"><p>80% jpg - 44 kb<br>The quality is very good</p></section>
+</article>
+<article class="loki">
+    <img src="../images/40.jpg" alt="40 percent jpg sample" height="500px">
+    <section class="leroy"><p>40% JPG - 13.3 kb<br>The quality is medium low</p></section>
+</article>
+<article class="loki">
+    <img src="../images/256.gif" alt="256 color gif sample" height="500px">
+    <section class="leroy"><p>256 color GIF - 94k<br>Medium Quality</p></section>
+</article>
+<article class="loki">
+    <img src="../images/64.gif" alt="64 color gif sample" height="500px">
+    <section class="leroy"><p>64 color GIF - 59.27k<br>The quality was low</p></section>
+</article>
+<article class="loki">
+    <img src="../images/8.gif" alt="8 color gif sample" height="500px">
+    <section class="leroy"><p>8 color GIF - 25.58k<br>Quality is very low</p></section>
+</article>
+<article class="loki">
+    <img src="../images/24.png" alt="PNG 24 sample" height="500px">
+    <section class="leroy"><p>PNG 24 - 245k<br>Quality is really good</p></section>
+</article>
+<div class="clear"></div>
+<article class="leo">
+    <img src="../images/01.jpg" alt="mountain sunset" width="400px">
+    <img src="../images/02.jpg" alt="yellow hall" width="400px">
+    <img src="../images/03.jpg" alt="desert mountain" width="400px">
+    <img src="../images/04.jpg" alt="blue shirt in orange room" width="400px">
+    <img src="../images/05.jpg" alt="man in middle of modern room" width="400px">
+    <img src="../images/06.jpg" alt="cinematic car" width="400px">
+    <img src="../images/07.jpg" alt="beach mountain" width="400px">
+    <img src="../images/08.jpg" alt="snow mountain" width="400px">
+    <img src="../images/09.jpg" alt="city bridge" width="400px">
+</article>
 </body>
 </html>
